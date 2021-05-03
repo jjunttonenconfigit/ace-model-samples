@@ -56,7 +56,7 @@ dotnet run SampleRestApi.csproj
 
 ## API Overview
 
-Full documentation will be available in Ace Model help.  
+Full documentation is available in Ace Developer Docs.  
 To query master data use `none` in place of `?wi`, but remember that master is read-only.
 
 ```
