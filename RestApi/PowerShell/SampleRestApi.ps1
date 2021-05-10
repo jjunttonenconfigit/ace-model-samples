@@ -99,7 +99,7 @@ function Create-SampleFamily($baseAddress, $requestParams)
 
 
   # 2. Using newly created Work Item add new SAMPLE family if does not exist
-  $requestParams.Uri    = "http://localhost:3000/api/v1/wi/$wi/library/families/$familyCode"
+  $requestParams.Uri    = "$baseAddress/api/v1/wi/$wi/library/families/$familyCode"
   $requestParams.Method = "Get"
   $requestParams.Body   = $null
 
